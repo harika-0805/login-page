@@ -7,12 +7,24 @@
 </head>
 <body>
     <audio controls>
-        <source src="reliable-safe-327618.mp3" type="audio/mpeg">
+        <source src="https://cdn.pixabay.com/download/audio/2023/12/06/audio_33c2f470c6.mp3?filename=efek-suara-funny-putri-lucu-180275.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
     <video width="320" height="240" controls>
-        <source src="video.mp4" type="video/mp4">
+        <source src="https://samplelib.com/lib/preview/mp4/sample-5s.mp4" type="video/mp4">
         Your browser does not support the video tag.
+        
     </video>
+    <svg width="500" height="300">
+        <circle cx="150" cy="150" r="90" stroke="yellow" stroke-width="20" fill="green" />    
+    </svg>
+    <canvas id="myCanvas" width="500" height="300" style="border:1px solid #000000;"></canvas>
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "blue";
+        ctx.fillRect(0, 0, 150, 100);
+        
+    
     </body>
 </html>
