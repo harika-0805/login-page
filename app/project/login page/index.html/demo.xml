@@ -1,0 +1,10 @@
+<Customers>
+    <Customer>
+        <Name>John Doe</Name>
+        <Age>30</Age>
+        <Phone Number="123456789/">
+        </Customers>
+        <customer>
+            <Name>Jane Smith</Name>
+            <Age>25</Age>
+            <Phone Number="987654321/">
